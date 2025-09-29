@@ -6,7 +6,7 @@ Project to compare rainfall precipitation between cities
 ## Project Overview
 
 - **Objective:** Analyze and compare rainfall precipitation trends between cities.
-- **Domain:** Meterology
+- **Domain:** Meteorology
 - **Key Techniques:** Time Series
 
 ---
