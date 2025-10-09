@@ -24,6 +24,7 @@ Analyze and compare daily rainfall precipitation between Seattle and Honolulu us
 
 Key files:
 - `code/Weather_Data_Preparation.ipynb` (notebook with data cleaning)
+- `code/Weather_Data_Analysis.ipynb` (notebook with analysis and visualizations)
 - `data/seattle_honolulu_rain_clean.csv` (cleaned data using Jupyter notebook)
 
 ---
@@ -36,7 +37,7 @@ Key files:
    pip install -r requirements.txt
    ```
 3. Open the Jupyter notebook in `code/Weather_Data_Preparation.ipynb` to explore the data cleaning and analysis process. Run the cells sequentially to produce results, visualizations, and the cleaned dataset 'data/seattle_honolulu_rain_clean.csv'.
-
+4. Open `code/Weather_Data_Analysis.ipynb` for exploratory data analysis (EDA). Run the the cells sequentially to produce results  and visualizations.
 ## Data
 
 - **Source:** [NOAA - Climate Data](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND)
