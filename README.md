@@ -22,12 +22,20 @@ Analyze and compare daily rainfall precipitation between Seattle and Honolulu us
 └── README.md             # Project documentation
 ```
 
-Key files present:
+Key files:
 - `code/Weather_Data_Preparation.ipynb` (notebook with data cleaning)
 - `data/seattle_honolulu_rain_clean.csv` (cleaned data using Jupyter notebook)
 
 ---
 
+## Setup
+
+1. Clone the repository: http://github.com/JLichwa80/weather
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter notebook in `code/Weather_Data_Preparation.ipynb` to explore the data cleaning and analysis process. Run the cells sequentially to produce results, visualizations, and the cleaned dataset 'data/seattle_honolulu_rain_clean.csv'.
 
 ## Data
 
