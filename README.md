@@ -1,39 +1,49 @@
-# Weather Analysis
+# Weather Analysis: Seattle vs. Honolulu
 
-Project to compare rainfall precipitation between cities
+Analyze and compare daily rainfall precipitation between Seattle and Honolulu using NOAA data.
+
 ---
 
 ## Project Overview
 
-- **Objective:** Analyze and compare rainfall precipitation trends between cities.
-- **Domain:** Meteorology
-- **Key Techniques:** Time Series
+- **Objective:** Analyze and compare rainfall precipitation trends between Seattle and Honolulu.
+- **Domain:** Meteorology/Climate
+- **Key Techniques:** Time Series Analysis, Data Cleaning, Visualization
 
 ---
 
 ## Project Structure
 
 ```
-├── data/                 # Raw and processed data
+├── data/                 # Raw and processed data (CSV)
 ├── code/                 # Jupyter notebooks and Python scripts
-├── reports/              # Generated reports and visualizations
+├── reports/              # Generated reports and visualizations 
 ├── requirements.txt      # Dependencies
 └── README.md             # Project documentation
 ```
 
+Key files present:
+- `code/Weather_Data_Preparation.ipynb` (notebook with data cleaning)
+- `data/seattle_honolulu_rain_clean.csv` (cleaned data using Jupyter notebook)
+
 ---
+
 
 ## Data
 
-- **Source:** [NOAA - Climate Data)](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND) 
-- **Description:** Daily rainfall precipitation datasets for selected cities
-- **License:** N/A
+- **Source:** [NOAA - Climate Data](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND)
+- **Description:** Daily precipitation observations for Seattle and Honolulu.
+- **Terms:** N/A.
+
+Files included in `data/`:
+- `seattle_rain.csv` – Seattle daily precipitation (raw)
+- `hnl_rain.csv` – Honolulu daily precipitation (raw)
 
 ---
 
 ## Analysis
 
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+- `code/Weather_Data_Preparation.ipynb` data cleaning and exploratory analysis notebook.
 
 ---
 
@@ -45,18 +55,18 @@ Include a short discussion of the findings and what they imply.
 
 ## Authors
 
-- Your Name - [@yourhandle](https://github.com/yourhandle)
+  Jack Lichwa – [@JLichwa80](https://github.com/JLichwa80)
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Acknowledgements
 
-- Tools/libraries used
-- Tutorials or papers referenced
-- Inspiration or collaborators
+**Libraries/Tools used:** numpy, pandas, matplotlib, seaborn, scikit-learn,Jupyter
+
+---
