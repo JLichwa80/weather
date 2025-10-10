@@ -22,11 +22,14 @@ Analyze and compare daily rainfall precipitation between Seattle and Honolulu us
 └── README.md             # Project documentation
 ```
 
-Key files:
+Key source files:
 - `code/Weather_Data_Preparation.ipynb` (notebook with data cleaning)
 - `code/Weather_Data_Analysis.ipynb` (notebook with analysis and visualizations)
 - `data/seattle_honolulu_rain_clean.csv` (cleaned data using Jupyter notebook)
 
+Report file:
+
+- `reports/RainPrecipationReport.pdf` (detailed analysis report)
 ---
 
 ## Setup
