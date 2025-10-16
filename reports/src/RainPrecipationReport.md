@@ -1,44 +1,52 @@
 # Seattle and Honolulu Rain Precipitation Report. Does Honolulu get more rain than Seattle?
 
 ## Introduction
-This report analyzes daily rain precipitation between Seattle and Honolulu in 2018 - 2022. It will compare average monthly rain precipitation between the two cities and determine if Honolulu gets more rain than Seattle. The report would initially compare total daily rain precipitation between the two cities and then analyze how it varies on a monthly basis evaluating seasonal trends, and variability.
+This report compares daily rain precipitation between Seattle, Washington and Honolulu, Hawaii from 2018 to 2022. There is perception that tropical locations like Honolulu, which is often perceived to have light rain almost every day and occasional sporadic heavy rainfalls significantly longer and stronger than Seattle. Does this perception hold true? 
 
+It analyzes five years of daily precipitation data to answer this question by examining:
+- Daily precipitation patterns and totals
+- Average precipitation differences 
+- Seasonal variations and trends
+- Heaviest rain months identification and year-to-year comparison across 2018-2022
 
-## Rain Precipitation Analysis
+The goal is to determine definitively which city receives more rain and understand the patterns behind the differences.
 
-The analysis focuses on comparing the average monthly rain precipitation (in inches) between Seattle and Honolulu from 2018 to 2022. The data is visualized using a line chart to illustrate the trends over the months.
+## Rain Precipitation Analysis (2018-2022)
 
-## Daily Rain Precipitation Analysis
-
-### Rain Precipitation for Seattle and Honolulu (inches)
-![Daily_Rain_Preciption](img/daily_precipitation.png)
-*Honolulu shows low and consistent rain precipitation throughout the year with occassional spikes, while Seattle exhibits significant seasonal variation with higher precipitation in the winter months.*
+This comprehensive analysis examines precipitation patterns between Seattle and Honolulu through multiple analytical approaches, progressing from cumulative average comparisons, seasonal distributions, and year-to-year variations during the heaviest precipitation periods.
 
 ### Average Daily Rain Precipitation
+Examine cumulative average daily rain precipitation for Seattle and Honolulu from 2018 to 2022 to understand overall differences in precipitation levels.
 ![daily_mean_precipitation](img/average_precipitation.png)
-*_As we can see from the chart above, Seattle generally receives more rain on average per day compared to Honolulu throughout the year._*
 
-### Total Rain Precipitation (inches) in years 2018-2022
-![total_precipitation](img/total_precipitation.png)
-*Seattle receives significantly more total rain precipitation compared to Honolulu over the five-year period from 2018 to 2022.*
+These chart shows that Seattle on average and in conclusion in total receives almost 3 times the amount of rain precipitation during the 5 year period in comparison to Honolulu.
 
-## Monthly Rain Precipation Analysis
-Evaluating monthly distribution of daily rain precipitation for Seattle and Honolulu to understand seasonal trends and variability.
 
-### Monthly Distribution of Daily Rain Precipitation
-![monthly_distribution_precipitation](img/monthly_precipitation_zoomed.png)
+### Daily Rain Precipitation Distribution and Seasonal Trends
+While Seattle has higher average daily precipitation, it's important to analyze daily patterns to understand seasonal variations and extremes.
+
+![Daily_Rain_Preciption](img/daily_precipitation.png)
+
+The data shows that light rain occuring daily in Honlulu is not visible in the chart. The ocassional spikes on the chart are tropical storm events which are rare. Seattle clearly show more frequent noticeable rain events. Both cities show seasonal trends with most rainy days in the winter months (November-February) and lower in the summer months (June-August). However, Seattle's winter months have significantly higher daily precipitation levels on most of the days compared to Honolulu.  
+
+### Seasonal Analysis and Monthly Variations
+Distributing the daily data by month to observe monthly trends.
+
+[monthly_distribution_precipitation](img/monthly_precipitation_zoomed.png)
 *The x-axis is reduced to 0-1 inch to better visualize data*
 
- Honolulu shows significanlty lower monthly average daily precipitation for every month of the year in comparison to Seattle. Most of the months shows low average daily precipitation, with higher and consistent precipitation in January, June, October, and December. Seattle shows that highest rain precipitation is in the winter months but there are significant variations during those months. 
+Seattle shows heavy monthly rain from late fall through early spring (November-March) and a dry summer. Honolulu's rainfall is more evenly distributed throughout the year, with highest rain in winter months. We can also observer that for nearly every month, Seattle's median rainfall values exceed Honolulu's.
 
-### November-February Monthly Distribution of Daily Precipitation by Year
+## Year-to-Year Analysis of Heaviest Rain Months (November-February)
+
+Focusing on the heaviest rain months (November to February) to compare year-to-year variations between Seattle and Honolulu.
+
 ![nov_feb_precipitation_by_year](img/monthly_precipitation_years_cmp.png)
 
-Graph shows that there is no significant difference in the monthly variation across years for Seattle, and variations exist are mostly within the month. For Honolulu, we can see that 2021 and 2022 were significantly higher with 2021 December rain precipitation being the only month with higher daily precipitation than Seattle.
-
+Graph shows that there is no significant difference in the monthly variation across years for Seattle, and variations exist are mostly within the month. For Honolulu we see more variation between years than in Seattle. While rain precipitation is generally lower during these months, with one major exception: December 2021 saw unusually heavy rainfall, making it the only month in this five-year peak-season comparison where Honolulu's average daily precipitation surpassed Seattle's.
 
 ## Conclusion
-Based on the analysis of daily rain precipitation data from 2018 to 2022, Seattle consistently receives more rain than Honolulu. The average daily precipitation in Seattle is higher than that of Honolulu throughout the year, and the total precipitation over the five-year period also indicates that Seattle experiences significantly more rainfall. We can conclude that it rains more in Seattle than in Honolulu. Similarly , monthly analysis shows that Seattle has higher average daily precipitation for every month of the year compared to Honolulu. Seasonal trends are evident in Seattle with higher precipitation in the winter months. 
+Based on the analysis of daily rain precipitation data from 2018 to 2022, Seattle consistently receives more rain than Honolulu. The average daily precipitation in Seattle is higher than that of Honolulu, and the total precipitation over the five-year period also indicates that Seattle experiences significantly more rainfall. We can conclude that it rains more in Seattle than in Honolulu. Similarly, monthly analysis shows that Seattle has higher average daily precipitation for every month of the year compared to Honolulu. Seasonal trends are evident in Seattle with higher precipitation in the winter months. 
 
 
 ## Data Sources, Collection, and Preparation
