@@ -32,7 +32,7 @@ The data shows that light rain occuring daily in Honolulu is not visible in the 
 ### Seasonal Analysis and Monthly Variations
 Distributing the daily data by month to observe monthly trends.
 
-[monthly_distribution_precipitation](img/monthly_precipitation_zoomed.png)
+![monthly_distribution_precipitation](img/monthly_precipitation_zoomed.png)
 *The x-axis is reduced to 0-1 inch to better visualize data*
 
 Seattle shows heavy monthly rain from late fall through early spring (November-March) and a dry summer. Honolulu's rainfall is more evenly distributed throughout the year, with highest rain in winter months. We can also observe that for nearly every month, Seattle's median rainfall values exceed Honolulu's.
